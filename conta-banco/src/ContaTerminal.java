@@ -5,9 +5,9 @@ public class ContaTerminal {
 
         Scanner Scanner =new Scanner(System.in);
 
-        //Exibir as mensagens para o usuario        System.out.println("Bem vindo ao Banco Teste!");
+        System.out.println("Bem vindo ao Banco Teste!");
         System.out.println("Por favor, digite o número da conta:");
-        int numeroConta = Scanner.nextInt(); // Obter o número da conta
+        int numeroConta = Scanner.nextInt(); 
 
         System.out.print("Digite o número da agência: ");
         String numeroAgencia = Scanner.next();
